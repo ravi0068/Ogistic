@@ -1,0 +1,251 @@
+/* for tablet 992px */
+@media screen and (max-width :1024px){
+    .Requestform textarea {
+        width: 99%;
+    }
+    .mapimg img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 23px;
+    }
+    .topheader {
+        background-size: 58%;
+    }
+    .abooutbx {
+        padding-bottom: 70px;
+    }
+    .bstcompany h6:after {
+        left: 94px;
+        top: 10px;
+    }
+    p.para::after {
+        top: -58px;
+        left: 55%;
+    }
+    
+}
+
+/* for ipad 768px */
+@media screen and (max-width :991px){
+    .hero {
+        padding: 5rem 0;
+    }
+    .hero h2 {
+        font-size: 32px;
+        margin-bottom: 21px;
+    }
+    form input[type="Location"] {
+        margin-bottom: 12px;
+    }
+    .hero h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .bstcompany button {
+        font-size: 12px;
+        padding: 6px 7px;
+    }
+    .about {
+        padding: 55px 0;
+    }
+    .about h2 {
+        font-size: 32px;
+    }
+    .abooutbx {
+        padding: 120px 0;
+    }
+    .about p {
+        font-size: 11px;
+    }
+    .hero p {
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+    .ourbx h2 {
+        font-size: 32px;
+    }
+    .ourbx p {
+        font-size: 11px;
+    }
+    .imgbox {
+        padding: 25px;
+    }
+    .imgbox2 {
+        padding: 25px;
+    }
+    .imgbox3 {
+        padding: 25px;
+    }
+    p.para {
+        margin-top: 60px;
+    }
+    .our {
+        padding: 55px 0;
+    }
+    .vehicle {
+        padding: 55px 0;
+    }
+    .testi {
+        padding: 55px 0;
+    }
+    .choosebx {
+        padding: 55px 0;
+    }
+    .vissionbx p {
+        font-size: 11px;
+    }
+    .vission h3 {
+        font-size: 18px;
+    }
+    .requestbx h2 {
+        font-size: 32px;
+    }
+    .choosebx h2 {
+        font-size: 32px;
+    }
+    .Requestform textarea {
+        width: 99%;
+        height: 80px;
+    }
+    .Requestform button {
+        padding: 10px 45px;
+        margin-top: 25px;
+    }
+    .location .fa-phone:before {
+        font-size: 20px;
+    }
+    .location .fa-envelope:before {
+        font-size: 20px;
+    }
+    .location .fa-location-dot:before, .fa-map-marker-alt:before {
+        font-size: 20px;
+    }
+    .location p {
+        font-size: 11px;
+    }
+    section.request {
+        padding: 55px 0px;
+    }
+    .frmbx input[type="text"] {
+        padding: 6px 7px;
+        width: 173px;
+    }
+    .frmbx button {
+        padding: 6px 4px;
+    }
+    .map h5 {
+        margin-top: 25px;
+    }
+    .hero p {
+        font-size: 11px;
+    }
+    .hero p {
+        padding: 0;
+    }
+    p.para::after {
+        left: 57%;
+    }
+    .topheader .fa-magnifying-glass:before, .fa-search:before {
+        color: #0f98f8;
+    }
+    .topheader .fa-user:before {
+        color: #0f98f8;
+    }
+    .topheader {
+        background-size: 60%;
+    }
+}
+
+/* for mobile 360px */
+@media screen and (max-width :767px){
+    .grid {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto ;
+        margin-top: 30px;
+    }
+    .truck {
+        padding: 25px 0;
+        margin-bottom: 15px;
+    }
+    .gridbx {
+        margin-bottom: 15px;
+    }
+    .frmbx input[type="text"] {
+        width: 250px;
+    }
+    .mapimg img {
+        margin-left: 0;
+    }
+    .abooutbx {
+        padding: 45px 0;
+        text-align: center;
+    }
+    .bstcompany {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    form input[type="Location"] {
+        width: 332px;
+    }
+    .hero h2 {
+        font-size: 30px;
+    }
+    .ourbx h2 {
+        font-size: 30px;
+    }
+    .choosebx {
+        padding: 25px 0;
+    }
+    .choosebx h2 {
+        font-size: 30px;
+    }
+    .requestbx h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    section.choose {
+        text-align: center;
+    }
+    .hero {
+        padding: 3rem 0;
+    }
+    .Requestform {
+        margin-bottom: 55px;
+    }
+    .bstcompany h6:after {
+        left: 217px;
+    }
+    
+    .topheader {
+        background-size: 72%;
+    }
+    form input[type="Location"] {
+        border: .5px solid #e5f4fe;
+        padding-left: 10px;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    .abooutbx h6::after {
+        left: 217px;
+    }
+    p.para::after {
+        left: 65%;
+    }
+    .vissionbx .paraa::after {
+        left: 214px;
+    }
+    .mapimg img {
+        margin-top: 15px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .topheader .fa-magnifying-glass:before, .fa-search:before {
+        color: #0f98f8;
+    }
+    .topheader .fa-user:before {
+        color: #0f98f8;
+    }
+
+}

@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+.topheader {
+    background-image: url(/Images/banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 53%;
+}
+.topheader .fa-user:before {
+    color: #fff;
+}
+.topheader .fa-magnifying-glass:before, .fa-search:before {
+    color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: #0f98f8;
+    font-weight: 700;
+}
+.hero {
+    padding: 11rem 0;
+}
+.hero h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #0f98f8;
+    margin-bottom: 35px;
+}
+.hero p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 0 130px 0 0;
+}s
+
+
+.hero h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+form input[type="Location"] {
+    margin-bottom: 15px;
+    border: none;
+    padding-left: 10px;
+}
+.bstcompnny h6 {
+    color: #fff;
+}
+.bstcompnny h4 {
+    color: #fff;
+}
+.bstcompnny button {
+    color: #fff;
+    background: #222b3c;
+    border: none;
+    font-size: 12px;
+    padding: 10px 10px;
+}
+.about {
+    padding: 70px 0;
+}
+.about h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #0f98f8;
+    margin-bottom: 35px;
+}
+.about p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.bstcompany h6{
+    position: relative;
+}
+.bstcompany h6:after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 1px;
+    width: 50px;
+    left: 90px;
+    top: 10px;
+}
+.abooutbx {
+    padding: 215px 0;
+}
+.abooutbx h6{
+    position: relative;
+
+}
+.abooutbx h6::after {
+    font-size: 1rem;
+    content: "";
+    background-color: #000;
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    top: 10px;
+    left: 90px;
+}
+.ourbx h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #0f98f8;
+    margin-bottom: 35px;
+}
+.ourbx p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.ourbx {
+    text-align: center;
+}
+.our {
+    background: #f7f7f9;
+    padding: 65px 0;
+}
+p.para{
+    position: relative;
+}
+p.para::after {
+    text-align: center;
+    margin-top: 70px;
+    content: "";
+    background-color: #000;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+    top: -59px;
+    left: 54.5%;
+}
+.imgbox {
+    padding: 35px;
+    text-align: center;
+    background: #0f98f8;
+    display: inline-block;
+    border-radius: 65px;
+}
+.imgbox2 {
+    padding: 35px;
+    text-align: center;
+    background: #fe7506;
+    display: inline-block;
+    border-radius: 65px;
+}
+.imgbox3 {
+    padding: 35px;
+    text-align: center;
+    background: #fed806;
+    display: inline-block;
+    border-radius: 65px;
+}
+.grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 30px;
+}
+.gridbx p {
+    margin-top: 15px;
+}
+.gridbx {
+    display: inline-block;
+    text-align: center;
+
+}
+p.para {
+    text-align: center;
+    margin-top: 70px;
+}
+.truck {
+    background: #efedf0;
+    border-radius: 25px;
+    padding: 30px 0;
+}
+p.trc {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.vehicle {
+    padding: 70px 0;
+}
+.testi {
+    padding: 70px 0;
+    background: #0f98f8;
+    border-radius: 30px;
+
+}
+
+.testi h2 {
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #fff;
+
+}
+.testi p.paraa{
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #fff;
+    margin-top: 8px;
+}
+p.paraa::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    top: 12px;
+    left: 90px;
+}
+.testi p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.ceo h4 {
+    color: #fff;
+}
+.luda {
+    display: flex;
+    column-gap: 20px;
+    align-items: end;
+}
+p.par {
+    margin-bottom: 0;
+}
+
+.choosebx h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #0f98f8;
+    margin-bottom: 35px;
+}
+.choosebx{
+    text-align: center;
+    padding: 70px 0;
+
+}
+.vission h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.vission {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
+.vissionbx p {
+    margin-bottom: 55px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.vissionbx .paraa{
+    position: relative;
+}
+.vissionbx .paraa::after {
+    font-size: 16px;
+    content: "";
+    background: #000;
+    height: 1px;
+    width: 50px;
+    top: 10px;
+    left: 84px;
+    position: absolute;
+}
+.vissionbx .paraa {
+    font-size: 15px;
+}
+.request {
+    padding: 70px 0px;
+}
+.requestbx h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #0f98f8;
+    margin-bottom: 35px;
+}
+.Requestform input[type="Location"] {
+    width: 99%;
+    border: .5px solid #e5f4fe;
+    padding: 10px 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.Requestform textarea {
+    resize: vertical;
+    border-radius: 10px;
+    border: .5px solid #e5f4fe;
+}
+.Requestform button {
+    padding: 10px 60px;
+    border: none;
+    background: #0f98f8;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.send{
+    text-align: center;
+}
+.map{
+    background: #f7f7f9;
+    padding: 70px 0;
+}
+.location {
+    display: flex;
+    align-items: normal;
+    margin-bottom: 15px;
+}
+.location .fa-location-dot:before, .fa-map-marker-alt:before {
+    color: #0f98f8;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.location .fa-phone:before {
+    color: #0f98f8;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.location .fa-envelope:before {
+    color: #0f98f8;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.row.maps {
+    align-items: center;
+}
+.frmbx {
+    display: flex;
+}
+.frmbx button {
+    border: none;
+    background: #0f98f8;
+    color: #fff;
+    padding: 6px 15px;
+}
+.frmbx input[type="text"] {
+    padding: 6px 15px;
+    border: none;
+}
+.map h5 {
+    font-size: 1.25rem;
+    margin-top: 50px;
+}
+.copy {
+    background: #0f98f8;
+    padding: 20px 0;
+}
+.right p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+}
